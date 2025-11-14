@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Blog</title>
+  <title>Blog | BM Academy</title>
   <link rel="stylesheet" href="./css/blog.css">
+  <link rel="shortcut icon" href="./assets//images/BM Logo Final-01.png">
+
 
 </head>
 <body>
@@ -18,8 +20,8 @@
   <!-- Blog Cards Container -->
   <div class="blog-container">
     <!-- Blog 1 -->
-    <a class="blog-card" href="./blog/digitalmarketing-blog.html">
-      <img class="card-media" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1400&auto=format&fit=crop" alt="Digital Marketing Dashboard">
+    <a class="blog-card" href="./blog/top-ai-tools-digital-marketing-course-2025.html">
+      <img class="card-media" src="./blog/image/banneriamges.png" alt="Digital Marketing Dashboard">
       <div class="card-content">
         <div class="card-kicker">Digital Marketing</div>
         <h2 class="card-title">Top AI Tools You’ll Learn in Our Digital Marketing AI Course (2025)</h2>
@@ -27,8 +29,8 @@
         <div class="card-meta">
           <img class="avatar" src="./css/logo.png" alt="Author">
           <div>
-            <div style="font-weight:600;color:#0f172a;">BM Academy | BM TechX</div>
-            <div style="font-size:12px;color:var(--muted);">Oct 14, 2025 · 6 min read</div>
+            <div style="font-weight:600;color:#0f172a;">BM Academy</div>
+            <div style="font-size:12px;color:var(--muted);">Oct 14, 2025</div>
           </div>
         </div>
       </div>
@@ -37,12 +39,12 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 BM Academy. All Rights Reserved.</p>
-    <p>
-      <a href="#">Privacy Policy</a> | 
-      <a href="#">Terms of Service</a> | 
-      <a href="#">Contact Us</a>
-    </p>
-  </footer>
+  <p>&copy; <span id="year"></span> BM Techx. All Rights Reserved.</p>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</footer>
+
 </body>
 </html>

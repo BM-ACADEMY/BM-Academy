@@ -12,7 +12,7 @@ header {
   color: white;
   /* ✅ Background Image with Overlay */
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.505)),
-    url("https://images.unsplash.com/photo-1557838923-2985c318be48?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1331");
+    url("./image/ai-digital-marketing-tools-2025-banner.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
